@@ -12,6 +12,7 @@ class SearchBar extends Component {
         type="text"
         className="form-search form-control"
         onChange={this.handleChange}
+        placeholder="search gifs"
       />
     );
   }
